@@ -9,6 +9,9 @@
 <br>
 <P>- HTML</P>
 <p>- CSS</p>
+<br>
+<br>
+<img src="https://raw.githubusercontent.com/Lucaslira1010/Wide-coverage-location/8bc9f7db85709863dacaf083801b7f95cb217d7a/img/Wide-coverage-location.png"/> 
 
 
 
