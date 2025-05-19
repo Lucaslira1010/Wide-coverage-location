@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+
+}
+
+
+
+header {
+    margin-left: 40px;
+    margin-top: 45px;
+
+
+
+
+}
+
+a {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 0.88px;
+    color: rgba(23, 35, 61, 1);
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: greenyellow;
+}
+
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(111, 191, 68, 1);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid rgba(76, 181, 56, 1)
+}
+
+button:active {
+    color: rgb(96, 134, 107);
+}
+
+
+
+
+section {
+    display: inline-block;
+    position: relative;
+    left: 88px;
+    top: 60px;
+    margin: 5px;
+    padding: 3%;
+
+
+
+
+}
+
+
+main {
+    display: inline-block;
+    position: absolute;
+    left: 54%;
+    top: 35%;
+    margin: 5px;
+    padding: 3%;
+
+
+
+}
+
+h1 {
+
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    margin-bottom: 10%;
+    color: rgba(22, 26, 73, 1);
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10%;
+    color: rgba(75, 80, 90, 1);
+
+
+
+}
+
+.link {
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: rgba(111, 191, 68, 1);
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+
+@media screen and (max-width: 1015px) {
+
+
+
+    .link2 {
+        display: none;
+    }
+
+    button {
+        position: absolute;
+        right: 10%;
+        top: 12px;
+    }
+
+
+
+    main {
+        display: block;
+        position: relative;
+        width: 69%;
+        left: 44px;
+        top:51px;
+
+
+
+    }
+
+    section {
+        display: block;
+        position: absolute;
+        top: 55%;
+        
+
+
+
+    }
+
+    img {
+        width: 100%;
+        padding: 1px;
+        position: relative;
+        right: 49px;
+        top: 10px;
+    }
+    
+
+
+
+
+    h1 {
+
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        text-align: center;
+
+
+    }
+
+    P {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+    }
+
+    .link {
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        width: 75%;
+        height: 1%;
+        position: absolute;
+        top: 90%;
+
+
+    }
+
+
+
+
+
+
+
+}
